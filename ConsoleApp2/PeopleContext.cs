@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ConsoleApp.NewDb
+namespace ConsoleApp2
 {
     public class PeopleContext : DbContext
     {

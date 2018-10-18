@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
+using ConsoleApp2;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConsoleApp2Tests
@@ -7,9 +10,11 @@ namespace ConsoleApp2Tests
     public class ListDataToHtmlWriterTests
     {
         [TestMethod]
-        public void OutputAllDataToHtmlFile()
+        [ExpectedException(typeof(FileNotFoundException))]
+        public void OutputAllDataToHtmlFile_WhenFileNameIsNullOrEmpty_ShouldThrowFileNotFoundException()
         {
-
+            ListDataToHtmlWriter dataToHtmlWr = new ListDataToHtmlWriter("people_sortedByFirstName.html", "People (sorted by first name A-Z)", null); //people.OrderBy(o => o.FirstName).ToList());
+            dataToHtmlWr.outputAllDataToHtmlFile();
         }
     }
 }

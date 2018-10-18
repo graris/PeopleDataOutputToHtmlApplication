@@ -4,11 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleApp.NewDb;
 
 namespace ConsoleApp2
 {
-    class ListDataToHtmlWriter
+    public class ListDataToHtmlWriter
     {
         string htmlFileName;
         string dataHeader = "";
