@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleDataOutputToHtmlApplication", "ConsoleApp2\PeopleDataOutputToHtmlApplication.csproj", "{7BB2B940-A8CE-4736-BF22-C4BFCB3D03E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleDataOutputToHtmlApplicationTests", "ConsoleApp2Tests\PeopleDataOutputToHtmlApplicationTests.csproj", "{87FF709F-0F97-4CA9-8755-85D64C1B93A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB2B940-A8CE-4736-BF22-C4BFCB3D03E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB2B940-A8CE-4736-BF22-C4BFCB3D03E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB2B940-A8CE-4736-BF22-C4BFCB3D03E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB2B940-A8CE-4736-BF22-C4BFCB3D03E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FF709F-0F97-4CA9-8755-85D64C1B93A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FF709F-0F97-4CA9-8755-85D64C1B93A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FF709F-0F97-4CA9-8755-85D64C1B93A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FF709F-0F97-4CA9-8755-85D64C1B93A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE160AB3-77F2-4360-98AF-AFD7FD50AB4C}
+	EndGlobalSection
+EndGlobal
