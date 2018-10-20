@@ -14,7 +14,7 @@ namespace ConsoleApp2
 
             using (var db = new PeopleContext())
             {
-                Repository<Person> peopleRep = new Repository<Person>(db);
+                IRepository<Person> peopleRep = new Repository<Person>(db);
 
                 var people = peopleRep.List();
 

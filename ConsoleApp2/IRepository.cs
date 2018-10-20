@@ -17,9 +17,4 @@ namespace ConsoleApp2
         void Delete(T entity);
         void Update(T entity);
     }
-
-    public abstract class EntityBase
-    {
-        public int Id { get; protected set; }
-    }
 }
