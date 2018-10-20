@@ -13,7 +13,7 @@ namespace ConsoleApp2Tests
         [ExpectedException(typeof(FileNotFoundException))]
         public void OutputAllDataToHtmlFile_WhenFileNameIsNullOrEmpty_ShouldThrowFileNotFoundException()
         {
-            ListDataToHtmlWriter dataToHtmlWr = new ListDataToHtmlWriter("people_sortedByFirstName.html", "People (sorted by first name A-Z)", null); //people.OrderBy(o => o.FirstName).ToList());
+            ListDataToHtmlWriter dataToHtmlWr = new ListDataToHtmlWriter("", "People (sorted by first name A-Z)", null); //people.OrderBy(o => o.FirstName).ToList());
             dataToHtmlWr.outputAllDataToHtmlFile();
         }
     }
